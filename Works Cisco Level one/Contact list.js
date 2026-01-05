@@ -1,11 +1,15 @@
 let contacts = [{
-    name: "Maxwell Wright",
-    phone: "(0191) 719 6495",
-    email: "Curabitur.egestas.nunc@nonummyac.co.uk"
+name: "Maxwell Wright",
+phone: "(0191) 719 6495",
+email: "Curabitur.egestas.nunc@nonummyac.co.uk"
 }, {
-    name: "Raja Villarreal",
-    phone: "0866 398 2895",
-    email: "posuere.vulputate@sed.com"
+name: "Raja Villarreal",
+phone: "0866 398 2895",
+email: "posuere.vulputate@sed.com"
+}, {
+name: "Helen Richards",
+phone: "0800 1111",
+email: "libero@convallis.edu"
 }]; //Previous contacts
 let options= prompt("1- FIRST CONTACT. 2- LAST CONTACT. 3- NEW CONTACT");
 switch(options){
@@ -16,9 +20,9 @@ switch(options){
     break;
 
     case "2":
-        alert("Name: " + contacts[1].name + "\n" +
-        "Phone: " + contacts[1].phone + "\n" +
-        "Email: " + contacts[1].email);
+        alert("Name: " + contacts[2].name + "\n" +
+        "Phone: " + contacts[2].phone + "\n" +
+        "Email: " + contacts[2].email);
          break; //Displays the last contact information in the console
     case "3":
     let name = prompt("Write his name;");
